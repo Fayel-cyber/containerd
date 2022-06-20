@@ -171,7 +171,7 @@ jobs:
              source ~/.profile && \
              go version && \
              git config --global --add safe.directory /ws && \
-             sudo -E PATH=$PATH script/setup/install-protobuf && \
+             #sudo -E PATH=$PATH script/setup/install-protobuf && \
              sudo chmod +x /usr/local/bin/protoc && \
              sudo chmod og+rx /usr/local/include/google /usr/local/include/google/protobuf /usr/local/include/google/protobuf/compiler && \
              sudo chmod -R og+r /usr/local/include/google/protobuf/ && \
